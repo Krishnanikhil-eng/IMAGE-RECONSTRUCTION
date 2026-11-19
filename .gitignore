@@ -1,4 +1,58 @@
+# Python
 __pycache__/
-*.pyc
-*~
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
 
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Pretrained model weights (too large for GitHub — download separately)
+*.pth
+*.pt
+*.pkl
+*.h5
+*.ckpt
+*.dat
+*.dat.bz2
+
+# Checkpoint zip archives
+*.zip
+
+# Output images (generated locally)
+outputs/
+batch_input/
+
+# Temporary test inputs
+test_input_*/
+
+# Synchronized-BatchNorm (installed separately)
+Face_Enhancement/models/networks/Synchronized-BatchNorm-PyTorch/
+Face_Enhancement/models/networks/sync_batchnorm/
+Global/detection_models/sync_batchnorm/
+
+# Checkpoint folders (downloaded separately via release)
+Face_Enhancement/checkpoints/
+Global/checkpoints/
+
+# dlib landmark model
+Face_Detection/shape_predictor_68_face_landmarks.dat
+Face_Detection/shape_predictor_68_face_landmarks.dat.bz2
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+
+# Logs and temp
+*.log
+*.tmp
